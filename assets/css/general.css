@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --inter: "Inter";
+  --roboto: "Roboto";
+
+  --primary-1: rgba(30, 58, 138, 1);
+  --primary-2: rgba(59, 130, 246, 1);
+  --gray-1: rgba(160, 163, 189, 1);
+  --gray-2: rgba(188, 188, 188, 1);
+  --black-50: rgba(0, 0, 0, 0.5);
+}
