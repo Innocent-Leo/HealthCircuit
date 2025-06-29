@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Preconnect t0 Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Preconnect to Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="../assets/images/logo/logo-icon.png"
+      type="image/x-icon"
+    />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../assets/css/forgot-pass.css" />
+    <link rel="stylesheet" href="../assets/css/general.css" />
+
+    <title>Forgot Password</title>
+  </head>
+  <body>
+    <div class="container">
+      <img
+        class="brand-logo"
+        src="../assets/images/logo/logo.png"
+        alt="brand-logo"
+      />
+      <form class="slider" id="slider">
+        <!-- Step 1: Enter Email -->
+        <div class="slider-section" id="step-1" style="display: none">
+          <div class="welcome-box">
+            <h2>Welcome back!</h2>
+            <p>No worries, we'll send you reset instructions</p>
+          </div>
+          <input
+            class="email-input"
+            id="email"
+            type="email"
+            placeholder="Email address"
+          />
+          <div class="forgot-password-box">
+            <button class="forgot-password-btn" id="reset-password">
+              Reset Password
+            </button>
+          </div>
+        </div>
+
+        <!-- Step 2: Enter OTP -->
+        <div class="slider-section" id="step-1" style="display: block">
+          <div class="welcome-box">
+            <h2>Welcome back!</h2>
+            <p>No worries, we'll send you reset instructions</p>
+          </div>
+          <input
+            class="email-input"
+            id="email"
+            type="email"
+            placeholder="Email address"
+          />
+          <div class="forgot-password-box">
+            <button class="forgot-password-btn" id="reset-password">
+              Reset Password
+            </button>
+          </div>
+          <p>Didn't receive the email? <a href="">Click here</a></p>
+        </div>
+
+        <!-- Back to login -->
+        <div class="login">
+          <a href="../admin.html">
+            <span class="fa fa-arrow-left"></span>
+            Back to log-in
+          </a>
+        </div>
+
+        <!-- Pagination -->
+        <div class="pagination" id="pagination">
+          <span class="active"></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

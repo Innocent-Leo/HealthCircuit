@@ -8,9 +8,27 @@
   --inter: "Inter";
   --roboto: "Roboto";
 
-  --primary-1: rgba(30, 58, 138, 1);
-  --primary-2: rgba(59, 130, 246, 1);
-  --gray-1: rgba(160, 163, 189, 1);
-  --gray-2: rgba(188, 188, 188, 1);
-  --black-50: rgba(0, 0, 0, 0.5);
+  --primary-1: rgb(30, 58, 138); /* navigation, primary CTAs header */
+  --primary-2: rgb(59, 130, 246); /* buttons, info highlights, link-hover */
+  --neutral-1: rgb(55, 65, 81); /* text, icons */
+  --neutral-2: rgb(190, 190, 199); /* background, card surfaces, inputs */
+  --neutral-3: rgb(243, 244, 246); /* background */
+  --white: rgb(255, 255, 255); /* background, text */
+  --accent-1: rgb(16, 185, 129); /* success states, positive feedback */
+  --accent-2: rgb(245, 158, 11); /* important CTAs, warnings, badges */
+  --accent-3: rgb(239, 68, 68); /* errors, alerts, negative feedback */
+}
+
+body {
+  max-width: 1440px;
+  font-family: var(--roboto);
+  background-color: var(--neutral-3);
+}
+
+.brand-logo {
+  width: 15%;
+  height: 15%;
+  padding: 1.5rem;
+  border: 1px solid var(--neutral-2);
+  border-radius: 1rem;
 }
